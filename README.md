@@ -1,2 +1,2 @@
 # nodetype-contracts
-Contracts for implementating Roadiz node-types and their fields
+Contracts for implementing Roadiz node-types and their fields

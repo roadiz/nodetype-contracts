@@ -1,0 +1,30 @@
+{
+    "name": "roadiz/nodetype-contracts",
+    "description": "Contracts for implementing Roadiz node-types and their fields",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "roadiz",
+        "cms",
+        "contracts"
+    ],
+    "authors": [
+        {
+            "name": "Ambroise Maupate",
+            "email": "ambroise@roadiz.io"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "phpstan/phpstan": "^0.12.64"
+    },
+    "autoload": {
+        "psr-4": {
+            "RZ\\Roadiz\\Contracts\\NodeType\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "doctrine/collections": "^1.6"
+    }
+}
