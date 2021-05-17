@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace RZ\Roadiz\Contracts\NodeType;
 
-interface NodeTypeFieldInterface extends TypeableFieldInterface, DescribableInterface
+interface NodeTypeFieldInterface extends TypeableFieldInterface, DescribableInterface, SearchableInterface
 {
     /**
      * @return string|null
@@ -71,13 +71,6 @@ interface NodeTypeFieldInterface extends TypeableFieldInterface, DescribableInte
      * @return bool
      */
     public function isVirtual(): bool;
-
-    /**
-     * Tells if current field can be searched and indexed in a Search engine server.
-     *
-     * @return boolean
-     */
-    public function isSearchable(): bool;
 
     /**
      * Tells if current field should sync its values between translations.
