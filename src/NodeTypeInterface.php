@@ -15,7 +15,8 @@ interface NodeTypeInterface extends DescribableInterface
     public function getSourceEntityClassName(): string;
 
     /**
-     * @return string
+     * @template T
+     * @return class-string<T>
      */
     public function getSourceEntityFullQualifiedClassName(): string;
 
