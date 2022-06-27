@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace RZ\Roadiz\Contracts\NodeType;
 
 use Doctrine\Common\Collections\Collection;
+use RZ\Roadiz\CoreBundle\Entity\NodeTypeField;
 
 interface NodeTypeInterface extends DescribableInterface, SearchableInterface
 {
@@ -44,6 +45,12 @@ interface NodeTypeInterface extends DescribableInterface, SearchableInterface
      * @return Collection<NodeTypeFieldInterface>
      */
     public function getSearchableFields(): Collection;
+
+    /**
+     * @param string $name
+     * @return NodeTypeFieldInterface|null
+     */
+    public function getFieldByName(string $name): ?NodeTypeFieldInterface;
 
     /**
      * Gets the value of color.
