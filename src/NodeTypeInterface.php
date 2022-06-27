@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace RZ\Roadiz\Contracts\NodeType;
@@ -15,8 +16,7 @@ interface NodeTypeInterface extends DescribableInterface, SearchableInterface
     public function getSourceEntityClassName(): string;
 
     /**
-     * @template T
-     * @return class-string<T>
+     * @return class-string
      */
     public function getSourceEntityFullQualifiedClassName(): string;
 
