@@ -5,7 +5,7 @@ namespace RZ\Roadiz\Contracts\NodeType;
 
 use Doctrine\Common\Collections\Collection;
 
-interface NodeTypeInterface extends DescribableInterface
+interface NodeTypeInterface extends DescribableInterface, SearchableInterface
 {
     /**
      * Get node-source entity class name without its namespace.
@@ -39,6 +39,11 @@ interface NodeTypeInterface extends DescribableInterface
      * @return Collection<NodeTypeFieldInterface>
      */
     public function getFields(): Collection;
+
+    /**
+     * @return Collection<NodeTypeFieldInterface>
+     */
+    public function getSearchableFields(): Collection;
 
     /**
      * Gets the value of color.
