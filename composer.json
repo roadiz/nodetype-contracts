@@ -25,6 +25,6 @@
     },
     "require": {
         "php": ">=7.4",
-        "doctrine/collections": "^1.6"
+        "doctrine/collections": ">=1.6"
     }
 }

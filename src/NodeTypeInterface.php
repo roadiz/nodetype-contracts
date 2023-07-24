@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace RZ\Roadiz\Contracts\NodeType;
 
 use Doctrine\Common\Collections\Collection;
-use RZ\Roadiz\CoreBundle\Entity\NodeTypeField;
 
 interface NodeTypeInterface extends DescribableInterface, SearchableInterface
 {
