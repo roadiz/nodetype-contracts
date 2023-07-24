@@ -1,3 +1,10 @@
+## 1.1.3 (2023-07-24)
+
+
+### Bug Fixes
+
+* Fixed implementation namespace use, allow doctrine/collection v2 ([08457be](https://github.com/roadiz/nodetype-contracts/commit/08457be0f205f47d63071c02c8bcb9ad26d8c1b0))
+
 ## 1.1.2 (2022-06-27)
 
 ### Features
