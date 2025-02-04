@@ -2,7 +2,7 @@
 
 All notable changes to project will be documented in this file.
 
-## [1.1.6](https://github.com/roadiz/nodetype-contracts/compare/1.1.5...1.1.6) - 2025-02-04
+## [2.0.0](https://github.com/roadiz/nodetype-contracts/compare/1.1.5...2.0.0) - 2025-02-04
 
 ### CI/CD
 
