@@ -15,6 +15,7 @@ interface NodeTypeFieldInterface extends TypeableFieldInterface, DescribableInte
      * @return string|null
      */
     public function getDefaultValues(): ?string;
+    public function getDefaultValuesAsArray(): array;
 
     /**
      * @return string Camel case field name
