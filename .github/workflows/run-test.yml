@@ -20,7 +20,7 @@ jobs:
         runs-on: ubuntu-latest
         strategy:
             matrix:
-                php-version: ['8.0', '8.1', '8.2']
+                php-version: ['8.0', '8.1', '8.2', '8.3', '8.4']
         steps:
             - uses: shivammathur/setup-php@v2
               with:
@@ -41,4 +41,4 @@ jobs:
                   php -d "memory_limit=-1" vendor/bin/phpcs --report=full -p ./src
             - name: Run PHP Stan
               run: |
-                  php -d "memory_limit=-1" vendor/bin/phpstan analyse -c phpstan.neon
+                  php -d "memory_limit=-1" vendor/bin/phpstan analyse
