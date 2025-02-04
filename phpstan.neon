@@ -2,10 +2,8 @@ parameters:
     level: max
     paths:
         - src
-    excludePaths:
-        - */node_modules/*
-        - */bower_components/*
-        - */static/*
+    ignoreErrors:
+        - identifier: missingType.iterableValue
+        - identifier: missingType.generics
     reportUnmatchedIgnoredErrors: false
-    checkMissingIterableValueType: false
-    checkGenericClassInNonGenericObjectType: false
+    treatPhpDocTypesAsCertain: false
