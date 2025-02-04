@@ -2,6 +2,12 @@
 
 All notable changes to project will be documented in this file.
 
+## [1.1.7](https://github.com/roadiz/nodetype-contracts/compare/1.1.6...1.1.7) - 2025-02-04
+
+### Bug Fixes
+
+- Revert adding `getDefaultValuesAsArray` to NodeTypeFieldInterface to prevent breaking changes. - ([e76c80c](https://github.com/roadiz/nodetype-contracts/commit/e76c80cc1716f9f354bceb159b2aced11aca76e8)) - Ambroise Maupate
+
 ## [1.1.6](https://github.com/roadiz/nodetype-contracts/compare/1.1.5...1.1.6) - 2025-02-04
 
 ### CI/CD
