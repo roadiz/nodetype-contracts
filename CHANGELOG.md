@@ -2,6 +2,17 @@
 
 All notable changes to project will be documented in this file.
 
+## [1.1.6](https://github.com/roadiz/nodetype-contracts/compare/1.1.5...1.1.6) - 2025-02-04
+
+### CI/CD
+
+- Updated CI tools - ([7d700b3](https://github.com/roadiz/nodetype-contracts/commit/7d700b35d607131f153cc33f036a40c1ddc70810)) - Ambroise Maupate
+
+### Features
+
+- Add getDefaultValuesAsArray to NodeTypeFieldInterface - ([cbf9f97](https://github.com/roadiz/nodetype-contracts/commit/cbf9f978ee29b15a2f6dcb3ff6000c3853890e82)) - eliot lauger
+- Update phpstan.neon - ([d6eb03c](https://github.com/roadiz/nodetype-contracts/commit/d6eb03c33c6723431fe0465176f1ec25a05c9d50)) - eliot lauger
+
 ## [1.1.5](https://github.com/roadiz/nodetype-contracts/compare/1.1.4...1.1.5) - 2023-12-02
 
 ### CI/CD
