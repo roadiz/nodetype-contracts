@@ -80,4 +80,11 @@ interface NodeTypeFieldInterface extends TypeableFieldInterface, DescribableInte
      * @return bool
      */
     public function isUniversal(): bool;
+
+    /**
+     * Tells if current field should be required or not.
+     *
+     * @return bool
+     */
+    public function isRequired(): bool;
 }
