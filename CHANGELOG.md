@@ -2,6 +2,16 @@
 
 All notable changes to project will be documented in this file.
 
+## [3.0.0](https://github.com/roadiz/nodetype-contracts/compare/2.0.0...3.0.0) - 2025-06-02
+
+### ⚠ Breaking changes
+
+- Add `isRequired` method to NodeTypeFieldInterface ([#3](https://github.com/roadiz/nodetype-contracts/issues/3))
+
+### Features
+
+-  [**breaking**]Add isRequired method to NodeTypeFieldInterface ([#3](https://github.com/roadiz/nodetype-contracts/issues/3)) - ([d80378f](https://github.com/roadiz/nodetype-contracts/commit/d80378fc907cb352ee7865d64a993bbb13099961)) - Eliot
+
 ## [2.0.0](https://github.com/roadiz/nodetype-contracts/compare/1.1.5...2.0.0) - 2025-02-04
 
 ### CI/CD
