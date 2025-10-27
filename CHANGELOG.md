@@ -2,6 +2,12 @@
 
 All notable changes to project will be documented in this file.
 
+## [3.1.1](https://github.com/roadiz/nodetype-contracts/compare/3.1.0...3.1.1) - 2025-10-27
+
+### Refactor
+
+- Remove static on method getRepositoryClassName ([#6](https://github.com/roadiz/nodetype-contracts/issues/6)) - ([a3d4819](https://github.com/roadiz/nodetype-contracts/commit/a3d4819213a377d8ce1ab0809c235f0882deb5d0)) - Eliot
+
 ## [3.1.0](https://github.com/roadiz/nodetype-contracts/compare/3.0.0...3.1.0) - 2025-10-23
 
 ### Features
