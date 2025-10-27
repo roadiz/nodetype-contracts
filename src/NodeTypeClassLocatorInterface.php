@@ -14,7 +14,7 @@ interface NodeTypeClassLocatorInterface
     /**
      * Get repository class name without its namespace.
      */
-    public static function getRepositoryClassName(NodeTypeInterface $nodeType): string;
+    public function getRepositoryClassName(NodeTypeInterface $nodeType): string;
 
     /**
      * Get fully qualified node-source entity class name.
