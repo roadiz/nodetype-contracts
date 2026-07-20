@@ -55,4 +55,6 @@ interface NodeTypeInterface extends DescribableInterface, SearchableInterface
     public function isReachable(): bool;
 
     public function isPublishable(): bool;
+
+    public function isUnpublishable(): bool;
 }
