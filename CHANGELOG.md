@@ -2,6 +2,12 @@
 
 All notable changes to project will be documented in this file.
 
+## [4.0.0](https://github.com/roadiz/nodetype-contracts/compare/3.1.1...4.0.0) - 2026-07-20
+
+### Features
+
+- add new isUnpublished function to the NodeTypeInterface - ([59b00d2](https://github.com/roadiz/nodetype-contracts/commit/59b00d201552861091abfb22d200fe371adb657a)) - eliot lauger
+
 ## [3.1.1](https://github.com/roadiz/nodetype-contracts/compare/3.1.0...3.1.1) - 2025-10-27
 
 ### Refactor
